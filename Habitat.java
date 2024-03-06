@@ -6,5 +6,9 @@ public abstract class Habitat {
         this.tipo = tipo;
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
     public abstract void monitorear();
 }
