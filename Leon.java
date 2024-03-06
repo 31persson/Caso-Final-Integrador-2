@@ -1,8 +1,6 @@
 public class Leon extends Animal {
-    // Atributos específicos para leones
-
-    public Leon(String nombre, int edad) {
-        super(nombre, edad);
+    public Leon(String nombre, int edad, Habitat habitat) {
+        super(nombre, edad, habitat);
     }
 
     @Override
