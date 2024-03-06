@@ -7,6 +7,7 @@ public class Main {
 
         // Instancia de animales
         Leon leon = new Leon("Simba", 5, selva);  // Ahora se especifica el hábitat terrestre
+        Pajaro pajaro = new Pajaro("Zazu", 3, aviario);
         // Puedes instanciar más animales aquí
 
         // Instancia de guía virtual y quiosco interactivo
