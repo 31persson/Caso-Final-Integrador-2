@@ -6,7 +6,7 @@ public class Main {
         HabitatAviario aviario = new HabitatAviario("Aviario");
 
         // Instancia de animales
-        Leon leon = new Leon("Simba", 5, selva);  // Ahora no se asume un hábitat específico
+        Leon leon = new Leon("Simba", 5, selva);  // Ahora se especifica el hábitat terrestre
         // Puedes instanciar más animales aquí
 
         // Instancia de guía virtual y quiosco interactivo
