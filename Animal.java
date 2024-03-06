@@ -9,6 +9,10 @@ public abstract class Animal {
         this.salud = 100;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
     public abstract void alimentar();
     public abstract void verificarSalud();
 }
